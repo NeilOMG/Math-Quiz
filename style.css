@@ -1,0 +1,74 @@
+body
+{
+	background:url("https://images.hdqwalls.com/download/minimal-landscape-4k-ro-1920x1080.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+
+.header{
+
+width: 100%;
+background-color: rgba(0, 0, 0, 0.270);
+font-size:30px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+height:50px;
+
+
+}
+
+.line{
+
+background-color: aliceblue;
+width:175px;
+height:7px;
+}
+h1{
+
+font-size:40px ;
+font-weight: bolder;
+margin-top: 60px;
+
+
+}
+	.login_div1 , .login_div2
+	{
+		background: rgba(255, 255, 255, 0.375);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        margin-top: 25px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word_input
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.input::-webkit-input-placeholder
+{
+	color:red;
+}
+
+.input_new::-webkit-input-placeholder
+{
+color:grey;
+}
